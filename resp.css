@@ -1,0 +1,240 @@
+@media(width >= 768px) {
+    .container{
+        width: 768px;
+        height: 2128px;
+    }
+    header{
+        width: 689px;
+        height: 58px;
+        gap: 474px;
+        margin: 40px;
+    }
+    .preorder{
+        width: 175px;
+        height: 58px;
+    }
+    .top{
+        margin-top: 131px;
+        margin-left: 15px;
+    }
+    .keyboard1{
+        width: 478px;
+        height: 425px;
+        border-radius: 20px;
+        margin-right: 0;
+        position: relative;
+        margin: -364px 0 0 420px;
+    }
+    .bg1{
+        background-image: url(assets2/keyboard1\ \(2\).svg);
+        width: 478px;
+        height: 425px;
+        flex-shrink: 0;
+        background-position-x: -90px;
+    }
+    .top{
+        width: 339px;
+        height: 305px;
+    }
+    .preordernow{
+        width: 175px;
+        height: 58px;
+        margin-left: 0;
+    }
+    .keyboard2{
+        margin-left: 39px;
+        width: 214px;
+        height: 320px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: var(--dorange);
+        overflow: hidden;
+        margin-top: 30px;
+        margin-left: 39px;
+        padding-left: 1px;
+    }
+    .bg{
+        width: 354px;
+        height: 554px;
+        background: url(assets3/keyboard2\ \(3\).svg);
+        background-position-x: -20px;
+        background-position-y: -65px;
+
+    }
+    .keyboard3{
+        width: 445px;
+        height: 320px;
+    }
+    .bg2{
+        width: 895px;
+        height: 671px;
+        background-image: url(assets2/keyboard3\ \(2\).svg)
+    }
+    .middle{
+        display: flex;
+        width: 689px;
+        height: 108px;
+        align-items: center;
+        margin-top: 80px;
+        padding: 0;
+    }
+    .wireless{
+        height: 108px;
+        width: 255px;
+        text-align: start;
+    }
+    .typemaster2{
+        height: 78px;
+        width: 700px;
+        text-align: start;
+    }
+    .box{
+        grid-template-columns: auto auto;
+        width: 768px;
+        height: 2128px;
+        margin-top: 142px;
+       justify-self: start;
+        row-gap: 50px;
+    }
+    .hj{
+        width: 384px;
+        height: 289px;
+        text-align: start;
+    }
+    .qq{
+        width: 339px;
+        height: 56px;
+        padding-right: 247px;
+    }
+    .hh{
+        width: 312px;
+        height: 104px;
+        padding-left: 31px;
+    }
+    .icon{
+        margin-left: 39px;
+        margin-top: 0;
+    }
+    .futeri{
+        margin: 20px 248px ;
+    }
+}
+
+
+
+
+@media(width >= 1440px){
+
+    .container{
+        display: flex;
+        width: 1440px;
+        height: 1870px;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        width: 1110px;
+        height: 58px;
+        flex-shrink: 0;
+        gap: 895px;
+    }
+    .flex1{
+        display: flex;
+    }
+    .top{
+        width: 445px;
+        height: 312px;
+        margin-right: 27px;
+    }
+    .typemaster{
+        font-size: 56px;
+    }
+    .improve{
+        font-size: 18px;
+        width: 445px;
+    }
+    .keyboard1{
+        margin: 0;
+        margin-left: 125px;
+        width: 540px;
+        height: 480px;
+        overflow: hidden;
+    }
+    .bg1{
+        width: 620px;
+        height: 520px;
+        background-position-x: -60px;
+    }
+    .square{
+        width: 255px;
+        height: 240px;
+        flex-shrink: 0;
+        background-color: var(--lgrey);
+        border-radius: 20px;
+    }
+    .square1{
+        margin-left: 30px;
+        margin-right: -245px;
+    }
+    .box{
+        display: flex;
+    }
+    .square2{
+        margin-top: 270px;
+        margin-left: -317px;
+    }
+    .flex2{
+        display: flex;
+        height: 480px;
+    }
+    .keyboard2{
+        width: 255px;
+        height: 480px;
+    }
+    .bg{
+        width: 255px;
+        height: 480px;
+        background-image: url(assets3/keyboard2\ \(3\).svg);
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+    .keyboard3{
+        width: 445px;
+        height: 480px;
+    }
+    .bg2{
+        width: 445px;
+        height: 480px;
+        background-image: url(assets3/keyboard3\ \(3\).svg);
+    }
+    .middle{
+        display: grid;
+        width: 255px;
+        height: 265px;
+        margin-left:125px ;
+    }
+    .www{
+        margin-inline-start: 22px;
+    }
+    .typemaster2{
+        width: 255px;
+    }
+    .box{
+        margin-top: 228px;
+        column-gap: 30px;
+        margin-left: -468px;
+    }
+    .box1,.box2,.box3,.box4{
+        width: 255px;
+        height: 323px;
+    }
+    .hh{
+        width: 276px;
+    }
+
+    .futeri{
+        margin-bottom: 40px;
+    }
+
+}
